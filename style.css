@@ -64,7 +64,7 @@ fieldset input::placeholder {
 }
 
 fieldset input[type=file] {
-    color: rgb(83, 134, 230);
+    color: #c45de9;
 }
 
 fieldset input[type=checkblox],
@@ -90,19 +90,19 @@ fieldset textarea {
 }
 
 button {
-    padding: 1rem 2rem;
-    margin-bottom: 2rem;
-    background: oklch(66.7% 0.295 322.15);
-    border: none;
-    color: #f9f9f9;
-    border-radius: 1rem;
-    font-weight: bold;
-    font-size: 2rem;
+  background-color: #c45de9;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
     button:hover {
-        background: oklch(74% 0.238 322.16);
-        cursor: pointer;
-        transition: ease-in-out .2s;
+        background: #a13fd6;
+       transform: scale(1.05);
 
     }
