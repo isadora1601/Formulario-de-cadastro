@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/sephora.jpg"type"="image/x-icon">
-    <title>Formulário de cadrasto</title>
+    <title>Formulário de cadastro</title>
 </head>
 <body>
     <head>
-        <h1>Formulário de cadrasto</h1>
+        <h1>Formulário de cadastro</h1>
     </head>
 
     <main>
@@ -55,8 +55,68 @@
                 <input type="color" id="cor">
             </div>
 
+            <div class="checkbox">
+         <h2>Escolha seus estilos musicais preferidos:</h2>
+
+                <div>
+                    <input type="checkbox" id="funk">
+                    <label for="funk">Funk</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sertanejo">
+                    <label for="sertanejo">sertanejo</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rock">
+                    <label for="rock">rock</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rap">
+                    <label for="rap">rap</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="jazz">
+                    <label for="jazz">jazz</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="outros">
+                    <label for="outros">outros</label>
+                </div>
+            </div>
+
+            <div class="radio">
+                <h2>Voce prefere doce salgado ou ambos?</h2>
+
+                <div>
+                    <input type="radio" id="doce" name="gosto">
+                    <label for="doce">doce</label>
+                </div>
+                <div>
+                    <input type="radio" id="salgado" name="gosto">
+                    <label for="salgado">salgado</label>
+                </div>
+                <div>
+                    <input type="radio" id="ambos?" name="gosto">
+                    <label for="ambos?">ambos?</label>
+                </div>
+            </div>
+
             <div>
-                <h3>Escolha seus estilos musicais preferidos:</h3>
+                <label for="tamanho">Selecione seu tamanho de camiseta:</label>
+                <select name="tamanho" id="tamanho">
+                    <option value="PP">PP</option>
+                 <option value="P">P</option>
+                 <option value="M">M</option>
+                 <option value="G">G</option>
+                 <option value="GG">GG</option>
+                 <option value="XGG">XGG</option>
+                 <option value="XXGG">XXGG</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="descrição">Faça uma breve descrição sobre voce:</label>
+                <textarea name="descrição" id="descrição" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
             </div>
            </fieldset>
 
