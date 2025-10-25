@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/sephora.jpg"type"="image/x-icon">
+    <title>Formulário de cadrasto</title>
+</head>
+<body>
+    <head>
+        <h1>Formulário de cadrasto</h1>
+    </head>
+
+    <main>
+        <form>
+           <fieldset>
+             <legend>Suas informções pessoais</legend>
+
+             <div>
+                <label for="nome-completo">Seu nome completo:</label>
+                <input type="" placeholder="Digite seu nome..." id="nome-completo" require maxlength="20" minlength="7">
+             </div>
+
+             <div>
+                <label for="CPF">CPF:</label>
+                <input type="number" placeholder="Digite seu CPF..." id="CPF" required min="12345678912">
+             </div>
+
+             <div>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Digite seu E-mail..." id="email" required>
+             </div>
+
+             <div>
+                <label for="senha">Senha:</label>
+                <input type="password" placeholder="Digite sua senha..." id="senha">
+             </div>
+
+             <div>
+                <label for="foto">Foto de perfil:</label>
+                <input type="file" id="foto" accept=".jpg,.png,.jpeg">
+             </div>
+
+             <div>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" max="2007-16-01">
+             </div>
+           </fieldset>
+
+           <fieldset>
+            <legend>Gostos pessoais</legend>
+
+            <div>
+                <label for="cor">Cor preferida:</label>
+                <input type="color" id="cor">
+            </div>
+
+            <div>
+                <h3>Escolha seus estilos musicais preferidos:</h3>
+            </div>
+           </fieldset>
+
+           <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
